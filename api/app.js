@@ -2,10 +2,14 @@ const express = require('express');
 const morgan = require('morgan');
 const bodyParser = require('body-parser');
 const cors = require('cors');
+const db = require('./config/db');
 
 const app = express();
 
 const PORT = 5000;
+
+//Connect to Mongo DB container
+db();
 
 //Setup middleware
 app.use(cors());
