@@ -38,7 +38,6 @@ function App() {
                 <Button variant="primary">SUBMIT</Button>
                 <Button variant="outline-secondary">CANCEL</Button>
               </Stack>
-
             </Form>
           </Col>
         </Row>
